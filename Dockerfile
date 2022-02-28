@@ -17,7 +17,6 @@ RUN cd /
 RUN pip3 install -U -r requirements.txt
 RUN mkdir /RadioPlayerV3
 WORKDIR /RadioPlayerV3
-COPY start.sh /start.sh
 
 # Running Radio Player Bot
 CMD ["/bin/bash", "/start.sh"]
